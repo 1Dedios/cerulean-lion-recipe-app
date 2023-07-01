@@ -4,6 +4,7 @@
   "description": "search recipes",
   "main": "y",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "n/a"
   },
   "repository": {
@@ -24,5 +25,9 @@
   "dependencies": {
     "preact": "^10.15.1",
     "tailwindcss": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "node": "^18.16.0"
   }
 }
